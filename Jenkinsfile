@@ -18,7 +18,7 @@ pipeline {
 
             steps {
 
-                sh 'sudo docker build -t devops-poc .'
+                sh 'docker build -t devops-poc .'
 
             }
 
@@ -28,7 +28,7 @@ pipeline {
 
             steps {
 
-                sh 'sudo docker rm -f poc-container || true'
+                sh 'docker rm -f poc-container || true'
 
             }
 
@@ -38,7 +38,7 @@ pipeline {
 
             steps {
 
-                sh 'sudo docker run -d -p 8081:80 --name poc-container devops-poc'
+                sh 'docker run -d -p 8081:80 --name poc-container devops-poc'
 
             }
 
