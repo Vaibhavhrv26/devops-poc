@@ -20,7 +20,7 @@ pipeline {
 
                 sh 'docker build -t devops-poc .'
 
-            }
+          }
 
         }
 
