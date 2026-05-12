@@ -20,7 +20,7 @@ pipeline {
                     $SCANNER_HOME/bin/sonar-scanner \
                     -Dsonar.projectKey=devops-poc \
                     -Dsonar.sources=. \
-                    -Dsonar.host.url=http://13.62.102.75:9000 \
+                    -Dsonar.host.url=http://51.20.84.128:9000 \
                     -Dsonar.login=squ_514c1f4e51cd0b104dce863a40681c8c6db729d7
                     '''
                 }
