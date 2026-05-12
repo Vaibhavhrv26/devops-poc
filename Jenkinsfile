@@ -21,7 +21,7 @@ pipeline {
                     -Dsonar.projectKey=devops-poc \
                     -Dsonar.sources=. \
                     -Dsonar.host.url=http://13.62.102.75:9000 \
-                    -Dsonar.login=sonar-token
+                    -Dsonar.login=squ_514c1f4e51cd0b104dce863a40681c8c6db729d7
                     '''
                 }
             }
